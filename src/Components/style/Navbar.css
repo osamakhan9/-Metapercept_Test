@@ -1,0 +1,28 @@
+.nav{
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	width: 99% !important;
+	margin: auto;
+
+}
+.navbar2{
+	display: flex;
+	gap: 30px;
+	
+}
+.navbar2>button{
+	width: 90px;
+	height: 40px;
+	margin-top: 9px;
+	background-color: white;
+	color: blue;
+	border: 1px solid blue;
+	border-radius: 5px;
+}

@@ -1,0 +1,64 @@
+.main{
+	background: rgb(2,223,224);
+background: -moz-linear-gradient(143deg, rgba(2,223,224,1) 26%, rgba(112,67,178,0.9817708333333334) 79%);
+background: -webkit-linear-gradient(143deg, rgba(2,223,224,1) 26%, rgba(112,67,178,0.9817708333333334) 79%);
+background: linear-gradient(143deg, rgba(2,223,224,1) 26%, rgba(112,67,178,0.9817708333333334) 79%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02dfe0",endColorstr="#7043b2",GradientType=1);
+color: white;
+text-align: center;
+padding-bottom: 40px;
+margin-top: 20px;
+padding-top: 40px;
+}
+.main>button{
+	padding: 15px 25px 15px 25px;
+	border: none;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.main>p{
+	width: 70%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+h1{
+	font-weight: 100;
+}
+.datahere{
+	margin: auto;
+}
+.grid{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	width: 75%;
+	/* border: 1px solid blue; */
+	gap: 50px;
+	margin: auto;
+}
+.grid>div{
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+	align-items: center;
+
+}
+#image{
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #55595c;
+	color: white;
+}
+.grid>div>button{
+	padding: 10px 10px 10px 10px;
+	display: block;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.grid>div>h2{
+	/* text-align: center; */
+	margin-left: 20px;
+}
+.grid>div>p{
+	margin-left: 20px;
+	text-align: left;
+}
